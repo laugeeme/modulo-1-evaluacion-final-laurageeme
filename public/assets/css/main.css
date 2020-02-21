@@ -84,6 +84,7 @@
 .section1 {
   padding-left: 15px;
   padding-right: 15px;
+  height: 376px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,6 +153,53 @@
   border: 2px solid #f26002;
   border-radius: 25px;
   text-align: center;
+}
+
+.section2 {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 624px;
+  background-color: #eff9ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.section2 .section2_title_container {
+  font-family: "Roboto Slab";
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  padding-top: 30px;
+  text-transform: capitalize;
+}
+
+.section2 .articles_container .articles {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+.section2 .articles_container .articles h4 {
+  padding-right: 68px;
+  padding-left: 68px;
+}
+
+.section2 .articles_container .articles p {
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
 /*# sourceMappingURL=main.css.map */
