@@ -13,10 +13,11 @@
     background-color: $colorMidBlue;
     width: 44px;
     height: 44px;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 
     & btn_burguer {
@@ -68,8 +69,13 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        & img {}
+        
+
+    
 
 
     }

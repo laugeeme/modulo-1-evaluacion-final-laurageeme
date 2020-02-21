@@ -1,6 +1,5 @@
-@import url(reset/normalize.css);
-
-* {
+@import url(reset/normalize.css);/* $forPc:
+$forTablet: */* {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -23,10 +22,16 @@
   background-color: #0271bc;
   width: 44px;
   height: 44px;
-  padding-left: 14px;
-  padding-right: 14px;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .btnBurguer_container btn_burguer {
@@ -79,6 +84,15 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .section1 {
