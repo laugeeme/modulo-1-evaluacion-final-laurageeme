@@ -1,0 +1,79 @@
+.page__main {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.section1 {
+
+    display: flex;
+    flex-direction: column;
+
+    & h2 {
+        font-family: $fontStyle2;
+        font-size: 14px;
+        line-height: 2.14;
+        color: $colorText3;
+        text-transform: capitalize;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        padding-top: 30px;
+    }
+
+
+
+    & h3 {
+        font-family: $fontStyle1;
+        color: $colorText2;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-transform: capitalize;
+
+    }
+
+    & p {
+
+        font-family: $fontStyle2;
+        color: $colorText4;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        padding-top: 15px;
+        padding-bottom: 30px;
+
+        &:first-letter {
+            text-transform: capitalize;
+        }
+
+    }
+
+
+    a {
+        color: $colorOrange;
+        background-color: $colorWhite;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: $fontStyle2;
+        font-size: 20px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.25;
+        letter-spacing: normal;
+        width: 76px;
+        height: 45px;
+        border: 2px solid  $colorOrange;
+        border-radius: 25px;
+        text-align: center;
+        
+    }
+}

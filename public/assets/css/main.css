@@ -43,20 +43,118 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  text-align: center;
 }
 
 .header_text_container h1 {
   color: #ffffff;
-  font-family: "Roboto Slab", bold;
+  font-family: "Roboto Slab";
   text-transform: uppercase;
   font-size: 42px;
   line-height: 55px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  padding-top: 284px;
 }
 
 .header_text_container p {
   color: #ffffff;
-  font-family: "Roboto", regular;
+  font-family: "Roboto";
   font-size: 16px;
+  position: relative;
+  padding-top: 10px;
+}
+
+.header_text_container .btn_down {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+}
+
+.page__main {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.section1 h2 {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 2.14;
+  color: #8ccbea;
+  text-transform: capitalize;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  padding-top: 30px;
+}
+
+.section1 h3 {
+  font-family: "Roboto Slab";
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
+
+.section1 p {
+  font-family: "Roboto";
+  color: #4a4a4a;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.section1 p:first-letter {
+  text-transform: capitalize;
+}
+
+.section1 a {
+  color: #f26002;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  width: 76px;
+  height: 45px;
+  border: 2px solid #f26002;
+  border-radius: 25px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
