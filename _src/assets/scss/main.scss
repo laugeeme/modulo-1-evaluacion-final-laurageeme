@@ -1,4 +1,9 @@
 @import 'reset/normalize.css';
-@import 'core/settings';
-
-
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'base/typography';
+@import 'layouts/structure';
+@import 'layouts/header';
+@import 'layouts/main';
+@import 'layouts/footer';
+@import 'components/buttons';
