@@ -81,12 +81,9 @@
   margin-top: 45px;
 }
 
-.page__main {
+.section1 {
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.section1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,11 +1,7 @@
-.page__main {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-
 .section1 {
 
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     flex-direction: column;
 
@@ -71,9 +67,9 @@
         letter-spacing: normal;
         width: 76px;
         height: 45px;
-        border: 2px solid  $colorOrange;
+        border: 2px solid $colorOrange;
         border-radius: 25px;
         text-align: center;
-        
+
     }
 }
