@@ -1,0 +1,21 @@
+.page__header {
+    height: 100vh;
+    width: 100vw;
+    background: url(/assets/images/cover.jpg) no-repeat;
+    background-position: top;
+    background-size: cover;
+
+}
+
+.btn_burguer_container {
+    width: 44px;
+    height: 44px;
+    background-color: $colorMidBlue;
+    position: fixed;
+
+    &btnBurguer {
+        padding-left: 16px;
+        height: 14px;
+        position:fixed;
+    }
+}
