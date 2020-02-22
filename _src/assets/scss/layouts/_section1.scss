@@ -6,6 +6,19 @@
     display: flex;
     flex-direction: column;
 
+    @include forTablet{
+        padding-left: 39px;
+        padding-right: 39px;
+        height: 330px;
+    }
+
+    @include forPc{
+        padding-left: 275px;
+        padding-right: 275px;
+        height: 360px;
+
+    }
+
     & h2 {
         font-family: $fontStyle2;
         font-size: 14px;
@@ -17,6 +30,11 @@
         font-style: normal;
         letter-spacing: normal;
         padding-top: 30px;
+
+        @include forPc{
+            font-size: 16px;
+            padding-top: 60px;
+        }
     }
 
 
@@ -31,6 +49,15 @@
         line-height: 1.25;
         letter-spacing: normal;
         text-transform: capitalize;
+       
+        @include forTablet {
+            font-size: 26px;
+        }
+
+        @include forPc {
+            font-size: 32px;
+        }
+
 
     }
 
@@ -50,6 +77,14 @@
         &:first-letter {
             text-transform: capitalize;
         }
+
+        @include forTablet {
+            font-size: 20px;
+            line-height: 1.5;
+            padding-top: 30px;
+        }
+
+        
 
     }
 
@@ -71,6 +106,14 @@
         border: 2px solid $colorOrange;
         border-radius: 25px;
         text-align: center;
+
+        @include forTablet {
+            width: 91px;
+        }
+
+        @include forPc {
+            width: 160px;
+        }
        
 
     }

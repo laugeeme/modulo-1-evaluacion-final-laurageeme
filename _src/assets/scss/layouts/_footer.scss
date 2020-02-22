@@ -7,6 +7,10 @@
     flex-direction: column;
     text-align: center;
 
+    @include forTablet {
+        
+    }
+
 
     & .btn_up {
         position: relative;
@@ -27,29 +31,13 @@
 
     & .menu_container {
         padding-top: 20px;
-        text-transform: uppercase;
-        font-family: $fontStyle2;
-        font-size: 16px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.88;
-        letter-spacing: normal;
-        text-align: center;
+       
 
     }
 
     & .rrss_container {
         padding-top: 30px;
-        text-transform: uppercase;
-        font-family: $fontStyle2;
-        font-size: 16px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.88;
-        letter-spacing: normal;
-        text-align: center;
+
     }
 
     & .copyright_container {
@@ -64,7 +52,20 @@
         letter-spacing: normal;
         text-align: center;
 
-        
+
     }
 
+    .footer_links {
+        text-decoration: none;
+        color: $colorText1;
+        text-transform: uppercase;
+        font-family: $fontStyle2;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: center;
+    }
 }

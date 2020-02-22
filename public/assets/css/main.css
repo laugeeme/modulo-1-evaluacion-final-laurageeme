@@ -1,17 +1,19 @@
-@import url(reset/normalize.css);/* $forPc:
-$forTablet: */* {
+@import url(reset/normalize.css);
+
+* {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.page__header {
+.page__hero {
   height: 100vh;
   width: 100vw;
   background: url(/assets/images/cover.jpg) no-repeat;
   background-position: top;
   background-size: cover;
+  background-blend-mode: multiply;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +41,7 @@ $forTablet: */* {
   height: 14px;
 }
 
-.header_text_container {
+.hero_text_container {
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,7 +53,7 @@ $forTablet: */* {
   text-align: center;
 }
 
-.header_text_container h1 {
+.hero_text_container h1 {
   color: #ffffff;
   font-family: "Roboto Slab";
   text-transform: uppercase;
@@ -67,7 +69,7 @@ $forTablet: */* {
   padding-top: 284px;
 }
 
-.header_text_container p {
+.hero_text_container p {
   color: #ffffff;
   font-family: "Roboto";
   font-size: 16px;
@@ -75,7 +77,7 @@ $forTablet: */* {
   padding-top: 10px;
 }
 
-.header_text_container .btn_down {
+.hero_text_container .btn_down {
   position: relative;
   width: 45px;
   height: 45px;
@@ -170,8 +172,6 @@ $forTablet: */* {
 }
 
 .section2 {
-  padding-left: 15px;
-  padding-right: 15px;
   width: 100vw;
   height: 624px;
   background-color: #eff9ff;
@@ -193,13 +193,12 @@ $forTablet: */* {
 
 .section2 .articles_container {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 68px 51px auto 51px 68px;
   grid-template-rows: 138px 138px 138px 45px 45px 60px;
 }
 
 .section2 .articles_container .item1 {
   padding-top: 45px;
-  text-align: center;
   grid-column: 2/5;
   grid-row: 1/2;
 }
@@ -372,28 +371,10 @@ $forTablet: */* {
 
 .page__footer .menu_container {
   padding-top: 20px;
-  text-transform: uppercase;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  text-align: center;
 }
 
 .page__footer .rrss_container {
   padding-top: 30px;
-  text-transform: uppercase;
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  text-align: center;
 }
 
 .page__footer .copyright_container {
@@ -407,6 +388,91 @@ $forTablet: */* {
   line-height: 1.88;
   letter-spacing: normal;
   text-align: center;
+}
+
+.page__footer .footer_links {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .page__hero {
+    height: 768px;
+  }
+
+  .hero_text_container h1 {
+    padding-top: 384px;
+    font-size: 80px;
+    line-height: 1.33;
+  }
+
+  .hero_text_container p {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+
+  .hero_text_container .btn_down {
+    margin-top: 30px;
+  }
+
+  .section1 {
+    padding-left: 39px;
+    padding-right: 39px;
+    height: 330px;
+  }
+
+  .section1 h3 {
+    font-size: 26px;
+  }
+
+  .section1 p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 30px;
+  }
+
+  .section1 a {
+    width: 91px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .hero_text_container h1 {
+    font-size: 100px;
+    line-height: 1.32;
+  }
+
+  .hero_text_container p {
+    padding-top: 0px;
+  }
+
+  .section1 {
+    padding-left: 275px;
+    padding-right: 275px;
+    height: 360px;
+  }
+
+  .section1 h2 {
+    font-size: 16px;
+    padding-top: 60px;
+  }
+
+  .section1 h3 {
+    font-size: 32px;
+  }
+
+  .section1 a {
+    width: 160px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
