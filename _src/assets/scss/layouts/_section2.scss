@@ -49,7 +49,7 @@
         display: grid;
         grid-template-columns: 70px 180px 70px;
         grid-template-rows: 45px 93px 45px 93px 45px 93px 45px 45px 60px;
-
+        justify-content: center;
 
         @include forTablet {
             display: grid;

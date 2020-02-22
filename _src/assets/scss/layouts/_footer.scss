@@ -3,12 +3,11 @@
     background-color: $colorDarkBlue;
     color: $colorText1;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+   
 
     @include forTablet {
-        
+        height: 240px;
+       
     }
 
 
@@ -19,53 +18,80 @@
         top: -22.5px;
         background-color: $colorWhite;
         border-radius: 50%;
+        display: block;
+        text-align: center;
+        padding-top: 10px;
         margin-left: auto;
         margin-right: auto;
+        
+
+        @include forTablet {
+            
+        }
+
+    }
+
+
+
+    .footer_links_container {
         display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-
-
-    & .menu_container {
-        padding-top: 20px;
-       
-
-    }
-
-    & .rrss_container {
-        padding-top: 30px;
-
-    }
-
-    & .copyright_container {
-        padding-top: 30px;
-        text-transform: lowercase;
-        font-family: $fontStyle2;
-        font-size: 16px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.88;
-        letter-spacing: normal;
+        flex-direction: column;
         text-align: center;
 
+        & li {
+            list-style-type: none;
+        }
+        
 
+        @include forTablet{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-decoration: none;
+        }
+
+
+
+        & .menu_container {
+            padding-top: 20px;
+            
+
+        }
+
+        & .rrss_container {
+            padding-top: 30px;
+
+        }
+
+        & .copyright_container {
+            padding-top: 30px;
+            text-transform: lowercase;
+            font-family: $fontStyle2;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            text-align: center;
+
+
+        }
+
+        .footer_links {
+            text-decoration: none;
+            color: $colorText1;
+            text-transform: uppercase;
+            font-family: $fontStyle2;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            text-align: center;
+            
+        }
     }
 
-    .footer_links {
-        text-decoration: none;
-        color: $colorText1;
-        text-transform: uppercase;
-        font-family: $fontStyle2;
-        font-size: 16px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.88;
-        letter-spacing: normal;
-        text-align: center;
-    }
 }
