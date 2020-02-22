@@ -446,8 +446,8 @@
 
   .section2 {
     height: 397px;
-    padding-right: 40px;
-    padding-left: 35.7px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .section2 .section2_title_container {
@@ -456,7 +456,7 @@
 
   .section2 .articles_container {
     display: grid;
-    grid-template-columns: 212.3px 27.7px 212.3px 27.7px 212.3px;
+    grid-template-columns: 35.7px 212.3px 27.7px 212.3px  27.7px 212.3px 40px;
     grid-template-rows: 45px 112px 60px 45px 60px;
   }
 
