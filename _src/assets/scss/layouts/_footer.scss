@@ -1,0 +1,70 @@
+.page__footer {
+    height: 465px;
+    background-color: $colorDarkBlue;
+    color: $colorText1;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+    & .btn_up {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        top: -22.5px;
+        background-color: $colorWhite;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    & .menu_container {
+        padding-top: 20px;
+        text-transform: uppercase;
+        font-family: $fontStyle2;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: center;
+
+    }
+
+    & .rrss_container {
+        padding-top: 30px;
+        text-transform: uppercase;
+        font-family: $fontStyle2;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: center;
+    }
+
+    & .copyright_container {
+        padding-top: 30px;
+        text-transform: lowercase;
+        font-family: $fontStyle2;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: center;
+
+        
+    }
+
+}
