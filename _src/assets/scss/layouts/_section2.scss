@@ -142,7 +142,7 @@
             }
 
             @include forPc{
-                grid-column: 4/5;
+                grid-column: 4/4;
                 grid-row: 1/2;
 
             }
@@ -278,16 +278,19 @@
                 width: 210px;
                 grid-column: 4/4;
                 grid-row: 4/5;
+                justify-self: center;
                 
             }
 
             @include forPc{
                 width: 255px;
                 display: grid;
-                grid-column: 4/5;
+                grid-column: 4/4;
                 grid-row: 4/5;
+                justify-self: center;
             }
 
+            
 
             
 
@@ -308,6 +311,10 @@
                 &:first-letter {
                 text-transform: capitalize;
             }
+
+                @include forPc{
+                    padding:0px;
+                }
 
             }
 
