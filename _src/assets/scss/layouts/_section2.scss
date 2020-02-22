@@ -83,7 +83,6 @@
             }
 
             & h4 {
-
                 font-family: $fontStyle1;
                 font-size: 18px;
                 font-weight: bold;
@@ -274,6 +273,10 @@
             background-color: $colorOrange;
             border-radius: 22.5px;
 
+            &:first-letter {
+                text-transform: capitalize;
+            }
+
             @include forTablet {
                 width: 210px;
                 grid-column: 4/4;
@@ -308,9 +311,7 @@
                 padding: 10px;
 
 
-                &:first-letter {
-                text-transform: capitalize;
-            }
+             
 
                 @include forPc{
                     padding:0px;
