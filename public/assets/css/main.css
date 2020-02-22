@@ -172,48 +172,167 @@ $forTablet: */* {
 .section2 {
   padding-left: 15px;
   padding-right: 15px;
+  width: 100vw;
   height: 624px;
   background-color: #eff9ff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .section2 .section2_title_container {
+  padding-top: 30px;
   font-family: "Roboto Slab";
   color: #000000;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
   text-align: center;
-  padding-top: 30px;
   text-transform: capitalize;
 }
 
-.section2 .articles_container .articles {
+.section2 .articles_container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 138px 138px 138px 45px 45px 60px;
+}
+
+.section2 .articles_container .item1 {
   padding-top: 45px;
-  padding-bottom: 45px;
+  text-align: center;
+  grid-column: 2/5;
+  grid-row: 1/2;
+}
+
+.section2 .articles_container .item1 h4 {
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
   text-align: center;
 }
 
-.section2 .articles_container .articles h4 {
-  padding-right: 68px;
-  padding-left: 68px;
+.section2 .articles_container .item1 h4:first-letter {
+  text-transform: capitalize;
 }
 
-.section2 .articles_container .articles p {
-  padding-right: 70px;
-  padding-left: 70px;
+.section2 .articles_container .item1 p {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.section2 .articles_container .item1 p:first-letter {
+  text-transform: capitalize;
+}
+
+.section2 .articles_container .item2 {
+  padding-top: 45px;
+  text-align: center;
+  grid-column: 2/5;
+  grid-row: 2/3;
+}
+
+.section2 .articles_container .item2 h4 {
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.section2 .articles_container .item2 h4:first-letter {
+  text-transform: capitalize;
+}
+
+.section2 .articles_container .item2 p {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.section2 .articles_container .item2 p:first-letter {
+  text-transform: capitalize;
+}
+
+.section2 .articles_container .item3 {
+  padding-top: 45px;
+  text-align: center;
+  grid-column: 2/5;
+  grid-row: 3/4;
+}
+
+.section2 .articles_container .item3 h4 {
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.section2 .articles_container .item3 h4:first-letter {
+  text-transform: capitalize;
+}
+
+.section2 .articles_container .item3 p {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.section2 .articles_container .item3 p:first-letter {
+  text-transform: capitalize;
+}
+
+.section2 .articles_container .item4 {
+  width: 184px;
+  height: 45px;
+  text-align: center;
+  grid-column: 2/5;
+  grid-row: 5/6;
+  background-color: #f26002;
+  border-radius: 22.5px;
+}
+
+.section2 .articles_container .item4:first-letter {
+  text-transform: capitalize;
+}
+
+.section2 .articles_container .item4 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
