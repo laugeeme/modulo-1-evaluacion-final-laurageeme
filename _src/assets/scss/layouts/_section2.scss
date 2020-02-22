@@ -39,7 +39,7 @@
             padding-top: 60px;
             font-size: 32px;
         }
-    
+
 
     }
 
@@ -53,7 +53,7 @@
 
         @include forTablet {
             display: grid;
-            grid-template-columns: 35.7px 212.3px 27.7px 212.3px  27.7px 212.3px 40px;
+            grid-template-columns: 35.7px 212.3px 27.7px 212.3px 27.7px 212.3px 40px;
             grid-template-rows: 45px 112px 60px 45px 60px;
         }
 
@@ -62,9 +62,9 @@
             display: grid;
             grid-template-columns: 81.2px 353.8px 26.2px 353.8px 26.2px 353.8px 85px;
             grid-template-rows: 45px 112px 60px 45px 60px;
-        
+
         }
-    
+
 
 
         & .item1 {
@@ -140,7 +140,7 @@
                 grid-row: 1/2;
             }
 
-            @include forPc{
+            @include forPc {
                 grid-column: 4/4;
                 grid-row: 1/2;
 
@@ -209,7 +209,7 @@
                 grid-row: 1/2;
             }
 
-            @include forPc{
+            @include forPc {
                 grid-column: 6/7;
                 grid-row: 1/2;
 
@@ -265,6 +265,7 @@
 
 
         & .item4 {
+            text-decoration: none;
             width: 184px;
             height: 45px;
             text-align: center;
@@ -272,20 +273,28 @@
             grid-row: 8/9;
             background-color: $colorOrange;
             border-radius: 22.5px;
+            color: $colorText1;
 
+            
             &:first-letter {
                 text-transform: capitalize;
             }
+
+            &:hover {
+                background-color: $colorBackBlue;
+                
+            }
+
 
             @include forTablet {
                 width: 210px;
                 grid-column: 4/4;
                 grid-row: 4/5;
                 justify-self: center;
-                
+
             }
 
-            @include forPc{
+            @include forPc {
                 width: 255px;
                 display: grid;
                 grid-column: 4/4;
@@ -293,12 +302,8 @@
                 justify-self: center;
             }
 
-            
-
-            
 
             & a {
-
                 text-decoration: none;
                 color: $colorText1;
                 font-family: $fontStyle2;
@@ -310,20 +315,17 @@
                 letter-spacing: normal;
                 padding: 10px;
 
-
-             
-
-                @include forPc{
-                    padding:0px;
+                &:hover {
+                    color: $colorOrange;
+                    background-color: $colorBackBlue;
                 }
 
+
+                @include forPc {
+                    padding: 0px;
+                }
             }
-
-
-
-
         }
-
     }
 
 
