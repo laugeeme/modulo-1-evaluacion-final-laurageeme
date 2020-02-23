@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 .page__hero {
   height: 100vh;
   width: 100vw;
@@ -57,7 +61,7 @@
   color: #ffffff;
   font-family: "Roboto Slab";
   text-transform: uppercase;
-  font-size: 42px;
+  font-size: 2.625rem;
   line-height: 55px;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   font-weight: bold;
@@ -72,7 +76,7 @@
 .hero_text_container p {
   color: #ffffff;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 1rem;
   position: relative;
   padding-top: 10px;
 }
@@ -112,7 +116,7 @@
 
 .section1 h2 {
   font-family: "Roboto";
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 2.14;
   color: #8ccbea;
   text-transform: capitalize;
@@ -126,7 +130,7 @@
 .section1 h3 {
   font-family: "Roboto Slab";
   color: #000000;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -138,7 +142,7 @@
 .section1 p {
   font-family: "Roboto";
   color: #4a4a4a;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -158,7 +162,7 @@
   text-decoration: none;
   text-transform: capitalize;
   font-family: "Roboto";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -186,7 +190,7 @@
   padding-top: 30px;
   font-family: "Roboto Slab";
   color: #000000;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -213,7 +217,7 @@
 
 .section2 .articles_container .item1 h4 {
   font-family: "Roboto Slab";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -228,7 +232,7 @@
 
 .section2 .articles_container .item1 p {
   font-family: "Roboto";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -250,7 +254,7 @@
 
 .section2 .articles_container .item2 h4 {
   font-family: "Roboto Slab";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -265,7 +269,7 @@
 
 .section2 .articles_container .item2 p {
   font-family: "Roboto";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -287,7 +291,7 @@
 
 .section2 .articles_container .item3 h4 {
   font-family: "Roboto Slab";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -302,7 +306,7 @@
 
 .section2 .articles_container .item3 p {
   font-family: "Roboto";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -339,7 +343,7 @@
   text-decoration: none;
   color: #ffffff;
   font-family: "Roboto";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -407,7 +411,7 @@
   color: #ffffff;
   text-transform: uppercase;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -424,7 +428,7 @@
   padding-top: 30px;
   text-transform: lowercase;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -439,13 +443,13 @@
 
   .hero_text_container h1 {
     padding-top: 384px;
-    font-size: 80px;
+    font-size: 5rem;
     line-height: 1.33;
   }
 
   .hero_text_container p {
     padding-top: 20px;
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .hero_text_container .btn_down {
@@ -459,11 +463,11 @@
   }
 
   .section1 h3 {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
 
   .section1 p {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.5;
     padding-top: 30px;
   }
@@ -479,7 +483,7 @@
   }
 
   .section2 .section2_title_container {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
 
   .section2 .articles_container {
@@ -494,11 +498,11 @@
   }
 
   .section2 .articles_container .item1 h4 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .section2 .articles_container .item1 p {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.5;
     padding-top: 14px;
   }
@@ -509,11 +513,11 @@
   }
 
   .section2 .articles_container .item2 h4 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .section2 .articles_container .item2 p {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.5;
     padding-top: 14px;
     -webkit-box-align: stretch;
@@ -527,11 +531,11 @@
   }
 
   .section2 .articles_container .item3 h4 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .section2 .articles_container .item3 p {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.5;
     padding-top: 14px;
   }
@@ -555,6 +559,9 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .page__footer .footer_info_container .menu_container {
@@ -586,13 +593,13 @@
     margin-left: 39px;
     width: 210px;
     height: 53px;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 
 @media all and (min-width: 1280px) {
   .hero_text_container h1 {
-    font-size: 100px;
+    font-size: 6.25rem;
     line-height: 1.32;
   }
 
@@ -607,12 +614,12 @@
   }
 
   .section1 h2 {
-    font-size: 16px;
+    font-size: 1rem;
     padding-top: 60px;
   }
 
   .section1 h3 {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .section1 a {
@@ -627,7 +634,7 @@
 
   .section2 .section2_title_container {
     padding-top: 60px;
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .section2 .articles_container {

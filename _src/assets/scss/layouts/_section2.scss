@@ -13,7 +13,6 @@
         height: 427px;
         padding-right: 0px;
         padding-left: 0px;
-
     }
 
 
@@ -22,7 +21,7 @@
         padding-top: 30px;
         font-family: $fontStyle1;
         color: $colorText2;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
@@ -32,20 +31,17 @@
         text-transform: capitalize;
 
         @include forTablet {
-            font-size: 26px;
+            font-size: 1.625rem;
         }
 
         @include forPc {
             padding-top: 60px;
-            font-size: 32px;
+            font-size: 2rem;
         }
-
-
     }
 
 
     & .articles_container {
-
         display: grid;
         grid-template-columns: 70px 180px 70px;
         grid-template-rows: 45px 93px 45px 93px 45px 93px 45px 45px 60px;
@@ -62,7 +58,6 @@
             display: grid;
             grid-template-columns: 81.2px 353.8px 26.2px 353.8px 26.2px 353.8px 85px;
             grid-template-rows: 45px 112px 60px 45px 60px;
-
         }
 
 
@@ -84,7 +79,7 @@
 
             & h4 {
                 font-family: $fontStyle1;
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-weight: bold;
                 font-stretch: normal;
                 font-style: normal;
@@ -97,16 +92,14 @@
                 }
 
                 @include forTablet {
-                    font-size: 24px;
+                    font-size: 1.5rem;
                 }
-
             }
 
 
             & p {
-
                 font-family: $fontStyle2;
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-weight: normal;
                 font-stretch: normal;
                 font-style: normal;
@@ -119,13 +112,11 @@
                 }
 
                 @include forTablet {
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     line-height: 1.5;
                     padding-top: 14px;
                 }
-
             }
-
         }
 
 
@@ -143,14 +134,12 @@
             @include forPc {
                 grid-column: 4/4;
                 grid-row: 1/2;
-
             }
 
 
             & h4 {
-
                 font-family: $fontStyle1;
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-weight: bold;
                 font-stretch: normal;
                 font-style: normal;
@@ -163,16 +152,14 @@
                 }
 
                 @include forTablet {
-                    font-size: 24px;
+                    font-size: 1.5rem;
                 }
-
             }
 
 
             & p {
-
                 font-family: $fontStyle2;
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-weight: normal;
                 font-stretch: normal;
                 font-style: normal;
@@ -185,17 +172,13 @@
                 }
 
                 @include forTablet {
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     line-height: 1.5;
                     padding-top: 14px;
                     align-items: stretch;
                 }
-
             }
-
-
         }
-
 
 
         & .item3 {
@@ -212,14 +195,12 @@
             @include forPc {
                 grid-column: 6/7;
                 grid-row: 1/2;
-
             }
 
 
             & h4 {
-
                 font-family: $fontStyle1;
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-weight: bold;
                 font-stretch: normal;
                 font-style: normal;
@@ -232,16 +213,14 @@
                 }
 
                 @include forTablet {
-                    font-size: 24px;
+                    font-size: 1.5rem;
                 }
-
             }
 
 
             & p {
-
                 font-family: $fontStyle2;
-                font-size: 18px;
+                font-size: 1.125rem;
                 font-weight: normal;
                 font-stretch: normal;
                 font-style: normal;
@@ -254,13 +233,11 @@
                 }
 
                 @include forTablet {
-                    font-size: 20px;
+                    font-size: 1.25rem;
                     line-height: 1.5;
                     padding-top: 14px;
                 }
-
             }
-
         }
 
 
@@ -281,8 +258,7 @@
             }
 
             &:hover {
-                background-color: $colorBackBlue;
-                
+                background-color: $colorBackBlue;  
             }
 
 
@@ -291,7 +267,6 @@
                 grid-column: 4/4;
                 grid-row: 4/5;
                 justify-self: center;
-
             }
 
             @include forPc {
@@ -307,7 +282,7 @@
                 text-decoration: none;
                 color: $colorText1;
                 font-family: $fontStyle2;
-                font-size: 20px;
+                font-size: 1.25rem;
                 font-weight: 500;
                 font-stretch: normal;
                 font-style: normal;
@@ -327,7 +302,4 @@
             }
         }
     }
-
-
-
 }

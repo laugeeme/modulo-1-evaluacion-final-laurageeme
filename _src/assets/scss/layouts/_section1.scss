@@ -1,5 +1,4 @@
 .section1 {
-
     padding-left: 15px;
     padding-right: 15px;
     height: 376px;
@@ -16,12 +15,11 @@
         padding-left: 275px;
         padding-right: 275px;
         height: 360px;
-
     }
 
     & h2 {
         font-family: $fontStyle2;
-        font-size: 14px;
+        font-size: 0.875rem;
         line-height: 2.14;
         color: $colorText3;
         text-transform: capitalize;
@@ -32,7 +30,7 @@
         padding-top: 30px;
 
         @include forPc{
-            font-size: 16px;
+            font-size: 1rem;
             padding-top: 60px;
         }
     }
@@ -42,7 +40,7 @@
     & h3 {
         font-family: $fontStyle1;
         color: $colorText2;
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
@@ -51,21 +49,18 @@
         text-transform: capitalize;
        
         @include forTablet {
-            font-size: 26px;
+            font-size: 1.625rem;
         }
 
         @include forPc {
-            font-size: 32px;
+            font-size: 2rem;
         }
-
-
     }
 
     & p {
-
         font-family: $fontStyle2;
         color: $colorText4;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: normal;
         font-stretch: normal;
         font-style: normal;
@@ -79,11 +74,10 @@
         }
 
         @include forTablet {
-            font-size: 20px;
+            font-size: 1.25rem;
             line-height: 1.5;
             padding-top: 30px;
-        }
-        
+        }  
     }
 
 
@@ -93,7 +87,7 @@
         text-decoration: none;
         text-transform: capitalize;
         font-family: $fontStyle2;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 500;
         font-stretch: normal;
         font-style: normal;
@@ -117,7 +111,5 @@
         @include forPc {
             width: 160px;
         }
-       
-
     }
 }
